@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+* {
+  background-color: antiquewhite;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +13,23 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.Header{
+  color: grey;
+  position: relative;
+  left: 40px;
+  font-family: "Baskerville";
+  display: inline;
+  word-spacing: 30px;
+}
+
+.Bigass-Line{
+  position: relative;
+  height: 20px;
+  bottom: 15px;
+  width: 1200px;
+  left: 40px;
 }
 
 .App-header {
@@ -28,11 +47,34 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Logo{
+  height: 40px;
+  width: 350px;
+  position: relative;
+  left: 25px;
+  top: 10px;
+}
+
+.Full-poem{
+  list-style-type: none;
+  text-align: center;
+  line-height: 35px;
+  position: relative;
+  right: 17px;
+  font-family: "Lucida Bright";
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(66, 66, 66);
+}
+
+.Title{
+  text-align: center;
+  font-family: "Lucida Bright";
+  color: rgb(66, 66, 66);
+}
+
+.Author{
+  text-align: center;
+  font-family: "Lucida Bright";
+  color: rgb(66, 66, 66);
 }
